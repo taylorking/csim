@@ -54,7 +54,7 @@ int get_operation(char op_char);
 trace_line_t process_line(char * line_text);
 result_t read_to_cache(cache_t cache, char * fileName);
 result_t run_simulation(trace_line_t * lines, int num_lines, cache_t cache);
-result_t simulate_line(trace_line_t line, cache_t settings, int ** data);
+
 int main(int argc, char * argv[])
 {
     // flags to make sure we have everything.
